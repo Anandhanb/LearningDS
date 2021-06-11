@@ -1,0 +1,8 @@
+class Insert
+{
+    //Insertion at the end of the array(sizeOfArray-1)
+    public void insertAtEnd(int arr[],int sizeOfArray,int element)
+    {
+        arr[sizeOfArray-1] = element;
+    }
+}
